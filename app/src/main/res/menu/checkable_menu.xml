@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/checkbox"
+            android:title="checkable_one" android:checked="false"/>
+        <item
+            android:id="@+id/checkbox2"
+            android:title="checkable_two"
+            android:checked="false"/>
+        <item
+            android:id="@+id/checkbox3"
+            android:title="checkable_three"
+            android:checked="false"/>
+    </group>
+    <group android:id="@+id/intent_based">
+
+    </group>
+
+</menu>
